@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&family=Palanquin:wght@500&family=Raleway:wght@900&family=Sintony:wght@700&display=swap');
+
+/*
+font-family: 'Palanquin', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sintony', sans-serif;
+*/
+
+body{
+  background-color: #f2e0bf;
+  font-family: 'Palanquin', sans-serif;
+  
+  /* Makes the navbar fill up the whole top space */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navbar configuration, positioning, spacing */
+.site-header{
+ background-color: black; 
+ 
+ padding: 10px;
+ margin:0px;
+  
+  /*Makes the navbar stick to top when scrolled*/
+ position: sticky;
+ top:0;
+}
+.logo{
+  width: 32px;
+  display:inline;
+}
+.homepage{
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  
+}
+nav{
+  color:white;
+  font-family: 'Raleway', sans-serif;
+
+  margin: 0 auto;
+  display:inline;
+  text-align:center;
+}
+
+nav a {
+  margin-left: 20px;
+}
+
+
+
+/* Navbar links configuration */
+.homepage a:link, a:visited{
+  font-size: 1.12em;
+  color: white;
+  text-decoration: none;
+
+}
+.homepage a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(0,255,255);
+}
+
+nav a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(0,255,255);
+}
+
+/* Body links configuration*/
+.body a:link {
+  color: black;
+   text-decoration: underline;
+   text-decoration-color: cyan;
+  text-decoration-thickness: 3px;
+}
+.body a:visited {
+  color: black;
+  text-decoration: underline;
+   text-decoration-color: cyan;
+  text-decoration-thickness: 3px;
+}
+.body a:hover {
+  color: rgb(0, 190, 200);
+  text-decoration: underline;
+  text-decoration-color: rgb(0,255,255);
+  text-decoration-thickness: 5px;
+
+  background-color: ;
+}
+
+
+/* Body (Content configuration) */
+.body{
+  font-size: 1.50em;
+  text-align: justify;
+  line-height: 1.25em;
+
+  padding-left:20%;
+  padding-right:20%;
+}
+
+h1 {
+  font-family:'Raleway', sans-serif;
+}
+
+.subheader-statement{
+  font-size: 1.50em;
+}
+
+h2, h3, h4 {
+  font-family:'Raleway', sans-serif;
+  margin-bottom: 0px;
+}
+
+p{
+  margin-top:0;
+}
+
+
+#homepage-banner{
+  margin: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  height: auto;
+  width: 100% ;
+}
+
+/* Contact Page Configuration */
+#contact-list-parent{
+  text-align: center;
+}
+#contact-list{
+  display:inline-block;
+  text-align: left;
+  font-weight:bold;
+}
+
+#contact-list img{
+  width:2em;
+ 
+}
+
