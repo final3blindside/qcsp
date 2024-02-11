@@ -6,8 +6,16 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Sintony', sans-serif;
 */
 
+/* CSS HEX 
+--savoy-blue: #5D64B1;
+--white: #FEFEFE;
+--white-2: #FFFFFF;
+--vista-blue: #93A2CB;
+--russian-violet: #391A52;
+*/
+
 body{
-  background-color: #f2e0bf;
+  background-color: #93A2CB;
   font-family: 'Palanquin', sans-serif;
   
   /* Makes the navbar fill up the whole top space */
@@ -18,7 +26,7 @@ body{
 
 /* Navbar configuration, positioning, spacing */
 .site-header{
- background-color: black; 
+ background-color: #391A52; 
  
  padding: 10px;
  margin:0px;
