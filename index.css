@@ -69,7 +69,7 @@ nav a {
 }
 .homepage a:hover{
   text-decoration: underline;
-  text-decoration-color: rgb(0,255,255);
+  text-decoration-color: #FEFEFE;
 }
 
 nav a:link, a:visited {
@@ -101,7 +101,7 @@ nav a:hover {
   text-decoration-color: rgb(0,255,255);
   text-decoration-thickness: 5px;
 
-  background-color: ;
+  background-color: #5D64B1;
 }
 
 
